@@ -1,0 +1,24 @@
+.nota {
+    font-size: 17px;
+    color: ghostwhite;
+}
+.encabezado{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+.copy_right_footer{
+    position: fixed;
+    color: navy;
+    background-color: peru;
+    width: 100%;
+    bottom:0;
+    text-align: center;
+    line-height: 3;
+}
+canvas{
+    border: 5px dashed darkgreen;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px yellow
+}
