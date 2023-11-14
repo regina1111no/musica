@@ -1,24 +1,48 @@
-.nota {
-    font-size: 17px;
-    color: ghostwhite;
+body{
+    background:url("https://media.tenor.com/Wa1Tp6HYjjcAAAAC/m%C3%BAsica-sonido.gif");
+    background-size:cover ;
 }
-.encabezado{
+.speed{
+    float: left;
+}
+.volumen{
+    float: right;
+}
+img{
+    width: 200px;
+    border-radius: 100px;
+}
+button{ 
+    width: 250px; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-size: 18px; 
+    font-family: cursive; 
+    background-color: #a29bfe; 
+    border: 2px solid #6c5ce7; 
+    transition: 1.2s; 
+} 
+button:hover { 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    padding-left: 35px; 
+    background-color: #81ecec; 
+    border: 2px solid #00cec9; 
+}
+h3{
+    font-size: 40px;
+    color: aqua;
+    font-family: 'Lucida Sans',sans-serif;
+}
+span{
     font-size: 25px;
-    width: 100%;
-    margin: 0px;
-    box-shadow: 5px 5px 5px darkblue;
+    color: rgb(232, 217, 199);
 }
-.copy_right_footer{
-    position: fixed;
-    color: navy;
-    background-color: peru;
-    width: 100%;
-    bottom:0;
-    text-align: center;
-    line-height: 3;
+#speed,#volumen{
+    font-size: 15px;
+    color: lightpink;
+    font-family: fantasy;
 }
 canvas{
-    border: 5px dashed darkgreen;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px yellow
+    background-color: aliceblue;
 }
